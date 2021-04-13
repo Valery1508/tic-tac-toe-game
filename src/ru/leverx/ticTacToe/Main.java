@@ -19,13 +19,13 @@ public class Main {
 
             switch (option){
                 case 1:
-                    System.out.println("1");
+                    new TicTacToe(1).game();
                     break;
                 case 2:
-                    System.out.println("2");
+                    new TicTacToe(2).game();
                     break;
-            case 0:
-                run = false;
+                case 0:
+                    run = false;
 
             }
         }
